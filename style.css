@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css2?family=Iceland&display=swap);
+
+body {
+  font-family: "Iceland", display;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, Blue, White);
+}
+
+.container {
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.todo-con {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.todo-title {
+  color: PaleGoldenRod;
+  font-family: "Iceland", display;
+  font-size: 40px;
+}
+
+.todo-title:hover {
+  color: bisque;
+}
+
+.in {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid blue;
+  font-size: 15px;
+  background-color: LightCyan;
+  color: aqua;
+}
+
+.in:hover {
+  background-color: bisque;
+  transition: all 0.5s ease;
+  color: blue;
+}
+
+.button {
+  border: 1px solid blue;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 5px;
+  background-color: LightCyan;
+  color: blue;
+}
+
+.button:hover {
+  background-color: blue;
+  transition: all 0.5s ease;
+  color: red;
+}
+
+.ad {
+  display: none;
+}
+
+small {
+  color: red;
+}
+
+.span {
+  display: none;
+}
+
+span {
+  color: aliceblue;
+}
+
+span:hover {
+  color: red;
+  transition: all 0.5s ease;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: Cyan;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li:hover {
+  color: red;
+}
+
+#delete {
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 13px;
+  color: white;
+  background-color: blue;
+}
+
+#delete:hover {
+  color: blue;
+  background-color: white;
+}
